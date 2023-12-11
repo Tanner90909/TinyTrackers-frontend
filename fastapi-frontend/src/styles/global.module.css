@@ -1,0 +1,46 @@
+#page {
+    background: linear-gradient(to top, #c6c1ea, #f7f2ec);
+    min-height: 100vh;
+  }
+
+  #componentcolor {
+    background-color: #f7f2ec;
+  }
+
+  #abouttext {
+    min-height: 500px;
+    align-items: center;
+  }
+
+  #textbasefont {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  #carouselimage {
+    max-height: 100vh;
+  }
+
+  #carouselinner {
+    height: 75vh;
+    width: 75vh;
+  }
+
+  @media (max-width: 767px) {
+    #footertext {
+      /* Styles to apply when screen width is 767px or less */
+      display: none;
+    }
+  }
+
+  #calendarbackground {
+    background-color: white;
+  }
+
+  #calendar {
+    height: 100vh;
+    background-color: white;
+  }
+
+  .offcanvasActive {
+    overflow: auto !important;
+  }
